@@ -1,7 +1,9 @@
 {
   "name": "@yanc/cra-templates",
   "private": true,
-  "main": "index.js",
+  "scripts": {
+    "tag": "echo TODO"
+  },
   "license": "MIT",
   "workspaces": [
     "./packages/*"
