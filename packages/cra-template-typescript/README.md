@@ -4,17 +4,17 @@
 
 ```sh
 # e.g. using @yanc/react-scripts
-npx create-react-app app --scripts-version @yanc/react-scripts@github:aistyler/yanc-react-scripts#semver:~4.0.0 --template cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=cra-template-typescript&tag=v1.0.1
+npx create-react-app app --scripts-version @yanc/react-scripts@github:aistyler/yanc-react-scripts#semver:~4.0.0 --template @yanc/cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=@yanc/cra-template-typescript&tag=v1.0.1
 
 # e.g. using default react-scripts
-npx create-react-app app --template cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=cra-template-typescript&tag=v1.0.0
+npx create-react-app app --template @yanc/cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=@yanc/cra-template-typescript&tag=v1.0.1
 ```
 
 ## Testing a template on local
 
-```npx create-react-app {app-name} --template cra-template-typescript@file:{absolute_path_to_template}```
+```npx create-react-app {app-name} --template @yanc/cra-template-typescript@file:{absolute_path_to_template}```
 
 ```sh
 # e.g.
-npx create-react-app app --template cra-template-typescript@file:$PWD/../packages/cra-template-typescript
+npx create-react-app app --template @yanc/cra-template-typescript@file:$PWD/../packages/cra-template-typescript
 ```
