@@ -55,11 +55,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-# v2 (berry)
-.yarn/**/*
-!.yarn/releases
-!.yarn/plugins
-.pnp.*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -164,13 +159,6 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-# yarn v2
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.*
-
 #!! ERROR: npm is undefined. Use list command to see defined gitignore types !!#
 
 ### Windows ###
@@ -207,13 +195,11 @@ $RECYCLE.BIN/
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+.pnp.*
 
 # if you are NOT using Zero-installs, then:
 # comment the following lines
-!.yarn/cache
-
-# and uncomment the following lines
-# .pnp.*
+#!.yarn/cache
 
 ### misc. ###
 temp/
