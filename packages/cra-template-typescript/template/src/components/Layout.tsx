@@ -15,4 +15,4 @@ const Layout: React.FC<any> = ({ children }) => {
   );
 }
 
-export default Layout;
+export { Layout };

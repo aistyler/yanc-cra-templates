@@ -5,27 +5,25 @@ import Layout from "../components/Layout";
 import logo from './logo.svg';
 import './index.css';
 
-function App() {
+const Index: React.FC<any> = () => {
   return (
-    <div className="App">
-      <Layout>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </Layout>
-    </div>
+    <Layout>
+      <header className="page-header">
+        <img src={logo} className="page-logo" alt="logo" />
+        <p>
+          Edit <code>src/pages/index.tsx</code> and save to reload.
+        </p>
+        <a
+          className="page-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </Layout>
   );
 }
 
-export default App;
+export default Index;
