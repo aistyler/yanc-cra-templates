@@ -3,8 +3,11 @@
 ## Usage
 
 ```sh
-# e.g.
-npx create-react-app app --template cra-template-typescript@git+https://github.com/aistyler/yanc-cra-templates.git#workspace=cra-template-typescript
+# e.g. using @yanc/react-scripts
+npx create-react-app app --scripts-version @yanc/react-scripts@github:aistyler/yanc-react-scripts#semver:~4.0.0 --template cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=cra-template-typescript&tag=v1.0.1
+
+# e.g. using default react-scripts
+npx create-react-app app --template cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=cra-template-typescript&tag=v1.0.0
 ```
 
 ## Testing a template on local
