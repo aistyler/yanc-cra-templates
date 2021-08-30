@@ -4,26 +4,31 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .page-logo {
-    animation: page-logo-spin infinite 20s linear;
-  }
+.page-container {
+  border: dotted thin red;
+
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  text-align: center;
 }
 
 .page-link {
   color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-logo {
+    animation: page-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes page-logo-spin {

@@ -1,15 +1,34 @@
-.Layout {
-  
-}
 
 .LayoutHeader {
+  border: dotted thin black;
   background-color: green;
+  /* size */
+  min-height: 10vh;
+  /* flexbox layout */
+  align-items: center;
 }
 
-.LayoutHeader {
+.LayoutHeader h1 {
+  border: dotted thin red;
+}
+
+.LayoutMain {
   background-color: blue;
+  /* size */
+  min-height: 84vh;
 }
 
 .LayoutFooter {
-  background-color: red;
+  border: dotted thin green;
+  background-color: black;
+  color: white;
+  /* size */
+  min-height: 5vh;
+  /* flexbox layout */
+  align-items: center;
+  justify-content: center;
+}
+
+.LayoutFooter h3 {
+  border: dotted thin red;
 }
