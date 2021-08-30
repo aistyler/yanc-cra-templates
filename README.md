@@ -10,5 +10,5 @@ yarn set version berry
 
 ```sh
 # e.g.
-npx create-react-app app --template cra-template-typescript@git+https://github.com/aistyler/yanc-cra-templates.git#workspace=cra-template-typescript&tag=1.0.0
+npx create-react-app app --template "@yanc/cra-template-typescript@github:aistyler/yanc-cra-templates#workspace=@yanc/cra-template-typescript&tag=@yanc/cra-template-typescript/1.0.0"
 ```
