@@ -1,0 +1,13 @@
+{
+  "name": "cra-template-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "The base template for Create React App.",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
