@@ -1,17 +1,15 @@
 # your app name
 
-## Tips
+## Configuration
 
-- disable 'react-jsx'
+- Use .env for configuration
+- See [Advanced Configuration](https://create-react-app.dev/docs/advanced-configuration)
+- `BUILD_PATH`: build output directory. default value is 'build'
+- `TSC_COMPILE_ON_ERROR`: When set to true, ignore typescript type check errors.
+- `ESLINT_NO_DEV_ERRORS`: When set to true, ESLint errors are converted to warnings during development.
+- `DISABLE_NEW_JSX_TRANSFORM`: When set to true, disables the [new JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
 
-```txt
-# .env
-
-# See https://github.com/facebook/create-react-app/issues/10178
-DISABLE_NEW_JSX_TRANSFORM=true
-```
-
-- tsconfig.json
+## tsconfig.json
 
 ```js
 {

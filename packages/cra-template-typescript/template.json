@@ -9,6 +9,7 @@
       "@types/node": "~16.7.0",
       "@types/react": "~17.0.0",
       "@types/react-dom": "~17.0.0",
+      "eslint": "",
       "react": "~17.0.2",
       "react-dom": "~17.0.2",
       "serve": "~12.0.0",
@@ -17,7 +18,9 @@
     },
     "scripts": {
       "dev": "react-scripts start",
-      "serve": "serve -s build"
+      "lint": "eslint .",
+      "lint:fix": "eslint --fix .",
+      "serve": "serve build"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
